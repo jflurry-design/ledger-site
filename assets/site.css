@@ -292,3 +292,36 @@ main { padding: 48px 0 72px; }
   .card, .feature, .faq details { box-shadow: none; border: 1px solid #ddd; }
   .faq details > div { display: block; }
 }
+
+/* Pricing + quieter promise (landing) */
+.pricing { text-align: center; margin: 12px 0 36px; }
+.pricing h2 { margin-top: 0; }
+.pricing .lede { max-width: 32em; margin-inline: auto; }
+.plans {
+  display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  max-width: 640px; margin: 24px auto 20px; text-align: left;
+}
+.plan {
+  position: relative; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  border: 1px solid var(--separator); padding: 24px;
+}
+@media (prefers-color-scheme: light) { .plan { border-color: transparent; } }
+.plan.best { border: 2px solid var(--accent-graphic); }
+.plan h3 { margin: 0 0 .25em; }
+.plan-tag {
+  display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--on-accent); background: var(--accent); padding: 3px 10px; border-radius: 999px; margin-bottom: 10px;
+}
+.plan-price { margin: 0 0 .4em; font-family: var(--font-display); }
+.plan-price strong { font-size: 2rem; font-weight: 800; letter-spacing: -.02em; }
+.plan-price span { color: var(--text-2); font-weight: 600; margin-left: 2px; }
+.plan-note { margin: 0; color: var(--text-2); font-size: .95rem; }
+.plan-facts { max-width: 640px; margin: 0 auto; text-align: left; color: var(--text-2); font-size: .98rem; }
+.promise {
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  border: 1px solid var(--separator); padding: clamp(24px, 4vw, 40px); margin: 0 0 36px;
+}
+@media (prefers-color-scheme: light) { .promise { border-color: transparent; } }
+.promise h2 { margin-top: 0; }
+.promise p { color: var(--text-2); max-width: 44em; }
+.promise p:last-child { margin-bottom: 0; }

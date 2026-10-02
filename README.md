@@ -50,5 +50,6 @@ Light/dark follows the visitor's system setting (`prefers-color-scheme`). SF Pro
 ## Editing
 
 - Update the **"Last updated"** date on Privacy/Terms whenever their text changes.
+- Current pricing (Oct 2, 2026): Premium Yearly `com.jasonflurry.ledger.premium.yearly` $29.99/yr and Monthly `com.jasonflurry.ledger.premium.monthly` $2.99/mo, same group "Premium", 7-day free intro offer on both (once per Apple Account), Family Sharing on. Appears in `index.html` (pricing section + footnote), `terms/` (#subscription) and `support/` (Subscription FAQ).
 - Prices, trial length and feature names must match App Store Connect and the app. No outcome claims ("save $X", "fix your finances", "guaranteed").
 - Pages deploy automatically from `main` (root) a minute or so after each push.
