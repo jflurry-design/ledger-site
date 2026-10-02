@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Support · Kitchen Table Finance</title>
+  <meta name="description" content="Help with Kitchen Table Finance: iCloud sync, sharing with your household, Family Sharing, restoring purchases, cancelling, and exporting or deleting your data.">
+  <meta name="theme-color" content="#FAF8F5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15171C" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap-wide bar">
+      <a class="brand" href="../" aria-label="Kitchen Table Finance home"><img src="../assets/icon.svg" alt="" width="30" height="30"><span>Kitchen Table Finance</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="../privacy/">Privacy</a>
+        <a href="../terms/">Terms</a>
+        <a href="../support/" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="eyebrow">Help</span>
+        <h1>Support</h1>
+        <p class="lede">Answers to common questions, and how to reach us.</p>
+      </header>
+
+      <div class="card" id="contact">
+        <h2 style="margin-top:0">Contact us</h2>
+        <!-- SUPPORT_EMAIL: placeholder. Run ./set-support-email.sh you@example.com (see README) -->
+        <p>Questions or problems? Email <span class="email-placeholder" data-support-email>support@ (coming soon)</span>. We aim to reply within 2 business days.</p>
+        <p class="muted small" style="margin-bottom:0">It helps to include your iPhone model, iOS version and the app version (in the app: <span class="path">Settings → About</span>). Please don't send receipts or financial details unless we ask for something specific. We never ask for your Apple Account password.</p>
+      </div>
+
+      <ul class="toc" aria-label="Topics">
+        <li><a href="#icloud">iCloud sync</a></li>
+        <li><a href="#household">Sharing with family</a></li>
+        <li><a href="#subscription">Subscription &amp; purchases</a></li>
+        <li><a href="#data">Export &amp; delete</a></li>
+        <li><a href="#app">Using the app</a></li>
+      </ul>
+
+      <section class="faq">
+        <h2 id="icloud">iCloud sync</h2>
+
+        <details>
+          <summary>How does syncing work?</summary>
+          <div>
+            <p>There's no account to create. The app syncs through your own iCloud account using Apple's CloudKit. Your data is stored on your iPhone and in your private iCloud database, and we can't see it.</p>
+            <p>To sync, your iPhone needs to be signed in to iCloud and the app needs to be allowed to use iCloud (<span class="path">iOS Settings → your name → iCloud</span>). Kitchen Table Finance is an iPhone app.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>My changes haven't shown up on the other iPhone yet.</summary>
+          <div>
+            <p>iOS schedules iCloud syncing, so it usually takes seconds to a few minutes and can take longer after big changes, on a weak connection, or in Low Power Mode. It isn't instant. You can see when the app last synced in <span class="path">Settings</span> (“Last synced”).</p>
+            <p>If it still doesn't catch up, check that both iPhones are online and signed in to iCloud, then open the app on both. Your entries are always saved on the iPhone where you made them first.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>What if my iCloud storage is full?</summary>
+          <div>
+            <p>Entries are still saved on your iPhone. New receipt photos stay on this iPhone until iCloud has room, and then sync. You can free up space in <span class="path">iOS Settings → your name → iCloud</span>, or remove old receipt photos in the app's receipt settings.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>I'm signing out of iCloud or switching Apple Accounts.</summary>
+          <div>
+            <p><strong>Export first</strong> (<span class="path">Settings → Export everything</span>). When the Apple Account on an iPhone changes, iOS removes the previous account's synced data from that iPhone. It stays in the old account's iCloud. If you're not signed in to iCloud at all, the app still works and keeps your data on this iPhone only.</p>
+          </div>
+        </details>
+
+        <h2 id="household">Sharing with family</h2>
+
+        <details>
+          <summary>How do I share a ledger with my partner or household?</summary>
+          <div>
+            <p>Open <span class="path">Settings → Household → Invite someone you live with</span> and send the invite (for example, through Messages). The person you invite needs an iPhone signed in to iCloud with Kitchen Table Finance installed. They open your invite link and then you both add expenses to the same ledger.</p>
+            <p>If you're joining someone else's household, <strong>open their invite link before you add your own data</strong>.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Who can see and change a shared ledger?</summary>
+          <div>
+            <p>Only the people you invite. They can add and edit expenses in that ledger, including receipt photos. Sharing works through Apple's iCloud sharing, so the data never passes through any server of ours.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I remove someone, or leave a household?</summary>
+          <div>
+            <p>If you own the ledger, go to <span class="path">Settings → Household</span> to manage people or stop sharing. If you joined someone else's ledger, use <span class="path">Settings → Household → Leave household</span>. Leaving removes the shared ledger from your iPhone, so export first if you want a copy.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Does my subscription cover my family?</summary>
+          <div>
+            <p>Yes. Premium supports <strong>Apple Family Sharing</strong>, so people in your Apple Family can use your subscription. Turn on purchase sharing in <span class="path">iOS Settings → your name → Family Sharing</span>.</p>
+            <p>Family Sharing (who pays) and household sharing (who sees the ledger) are separate. Each person's iPhone checks Premium on its own: someone in your Apple Family is covered, while anyone outside it needs their own subscription or free trial to add entries. Everyone can always view and export.</p>
+          </div>
+        </details>
+
+        <h2 id="subscription">Subscription &amp; purchases</h2>
+
+        <details>
+          <summary>How much is Premium, and what does it include?</summary>
+          <div>
+            <p>Premium is <strong>$9.99 per year</strong> (US) after a <strong>1-month free trial</strong> for eligible new subscribers. It includes adding and editing entries, receipt scanning and new monthly check-ins. It renews automatically unless you cancel at least 24 hours before the end of the current period. Full details are in the <a href="../terms/#subscription">Terms of Use</a>.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I restore my purchase on a new iPhone?</summary>
+          <div>
+            <p>Make sure you're signed in to the App Store with the Apple Account you subscribed with, then tap <span class="path">Settings → Subscription → Restore purchases</span> in the app. The paywall has a Restore button too. If you're covered through Family Sharing, check that purchase sharing is on for your family.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I cancel?</summary>
+          <div>
+            <p>Subscriptions are managed by Apple. Go to <span class="path">iOS Settings → your name → Subscriptions → Kitchen Table Finance</span> and tap Cancel Subscription, or in the app open <span class="path">Settings → Subscription → Manage subscription</span>. Cancel at least 24 hours before your renewal date to avoid the next charge. You keep Premium until the end of the period you've paid for.</p>
+            <p>Deleting the app doesn't cancel a subscription. We can't cancel subscriptions or issue refunds ourselves; Apple handles refunds at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>What happens if I stop subscribing?</summary>
+          <div>
+            <p>Nothing is deleted. The app stays open so you can view your history and export everything at any time. Adding or editing entries, scanning receipts and new check-ins need Premium.</p>
+          </div>
+        </details>
+
+        <h2 id="data">Export &amp; delete your data</h2>
+
+        <details>
+          <summary>How do I export my data?</summary>
+          <div>
+            <ul>
+              <li><strong>Everything:</strong> <span class="path">Settings → Export everything</span> creates a CSV of all months plus a ZIP of your receipt photos.</li>
+              <li><strong>One month:</strong> in Reports, tap Share for a PDF report, a CSV, or a reimbursables CSV.</li>
+            </ul>
+            <p>Exports work even without a subscription. You can also turn on a monthly export reminder in <span class="path">Settings</span>.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>My CSV has categories my spreadsheet doesn't recognize.</summary>
+          <div>
+            <p>Use the <code>category_name</code> column, or add the new <code>category_id</code> to your spreadsheet's lookup table. Spreadsheet templates are outside the app, so we can't update them for you.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I delete my data?</summary>
+          <div>
+            <p>In the app, go to <span class="path">Settings → Delete all my data</span> and type DELETE to confirm. This can't be undone, so export first.</p>
+            <ul>
+              <li>If you <strong>own</strong> the ledger, it's deleted from your iPhone and your iCloud, for everyone you share it with.</li>
+              <li>If you <strong>joined</strong> someone else's household, you leave it and the copy on your iPhone is removed. The owner's ledger isn't affected.</li>
+            </ul>
+            <p>Deleting the app removes the data on your iPhone, but anything already synced stays in your iCloud. To remove that too, use Delete all my data before deleting the app, or manage storage in <span class="path">iOS Settings → your name → iCloud</span>. We have no copy of your data, so we can't delete or recover it for you.</p>
+          </div>
+        </details>
+
+        <h2 id="app">Using the app</h2>
+
+        <details>
+          <summary>Does the app connect to my bank?</summary>
+          <div>
+            <p>No. Kitchen Table Finance is a manual expense log: you type expenses or scan your own receipts. It doesn't connect to banks or cards, and it never moves money.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>The receipt scan got something wrong.</summary>
+          <div>
+            <p>Receipts are read on your iPhone, and you check every field before anything is saved. Just correct it on the review screen. Faded, crumpled or very long receipts are harder to read, so flat, well-lit photos work best. If your iPhone supports Apple Intelligence, you can turn on smart receipt reading in <span class="path">Settings → Smart features</span>; receipts still work without it.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Is the monthly check-in financial advice?</summary>
+          <div>
+            <p>No. It's educational information that compares your own logged spending with the goals you set, plus a few general budgeting ideas. It doesn't guarantee any result. For advice about your situation, talk to a qualified professional.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I keep my amounts private?</summary>
+          <div>
+            <p>Turn on <span class="path">Settings → Face ID lock</span> to require Face ID or your passcode to open the app. Amounts are hidden on the Lock Screen by default, which you can change under Widgets, Lock Screen &amp; feel.</p>
+          </div>
+        </details>
+      </section>
+
+      <p class="muted small" style="margin-top:32px">See also the <a href="../privacy/">Privacy Policy</a> and <a href="../terms/">Terms of Use</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap-wide row">
+      <div>
+        <strong>Kitchen Table Finance</strong>
+        <p>© 2026 Jason Flurry</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="../">Home</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../terms/">Terms of Use</a>
+        <a href="../support/">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
